@@ -1,3 +1,4 @@
+import json
 from fastapi import FastAPI
 from pydantic import BaseModel
 from elasticsearch import Elasticsearch
@@ -11,17 +12,17 @@ index_name = 'code'
 app = FastAPI()
 
 #  init a es service
-es = Elasticsearch([{'host':host,'port':port}])
+es = Elasticsearch([{'host': host, 'port': port}])
+
 
 #  define post struct
 class SearchData(BaseModel):
-    query:str
+    query: str
 
 @app.post("/search/")
-def read_root(data:SearchData)->str:
+def read_root(data: SearchData) -> json:
     # TODO:
     return {
         "query": data.query,
         "search_res": "",
     }
-
