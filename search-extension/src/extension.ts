@@ -1,23 +1,40 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "search-extension" is now active!');
+	const searchSelection = vscode.commands.registerCommand('search-extension.searchSelection', async () => {
+		const editor = vscode.window.activeTextEditor;
+		if (editor) {
+			const selection = editor.selection;
+			const selectionText = editor.document.getText(selection);
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
-	const searchSelection = vscode.commands.registerCommand('search-extension.', () => {
-		vscode.window.showInformationMessage('Hello World from search-extension!');
+			const question = await vscode.window.showInputBox({
+				prompt: '',
+				placeHolder: ' ',
+				value: `'${selectionText}'`
+			});
+			if (question) {
+				const fakeData = [
+					{}
+				]
+				const panel = vscode.window.createWebviewPanel(
+					"",
+					"",
+					vscode.ViewColumn.One,
+					{
+						enableScripts:true
+					}
+				)
+				panel.webview.html = getWebViewContent(fakeData)
+			}
+		}
 	});
-
 	context.subscriptions.push(searchSelection);
+}
+
+function getWebViewContent(data:{}[]) {
+	// TODO: H5展示页面
+	return ''
 }
 
 // This method is called when your extension is deactivated
