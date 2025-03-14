@@ -36,34 +36,41 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.activate = activate;
 exports.deactivate = deactivate;
 const vscode = __importStar(require("vscode"));
+const path = __importStar(require("path"));
+const fs = __importStar(require("fs"));
 function activate(context) {
-    const searchSelection = vscode.commands.registerCommand('search-extension.searchSelection', async () => {
-        const editor = vscode.window.activeTextEditor;
-        if (editor) {
-            const selection = editor.selection;
-            const selectionText = editor.document.getText(selection);
-            const question = await vscode.window.showInputBox({
-                prompt: '',
-                placeHolder: ' ',
-                value: `'${selectionText}'`
-            });
-            if (question) {
-                const fakeData = [
-                    {}
-                ];
-                const panel = vscode.window.createWebviewPanel("", "", vscode.ViewColumn.One, {
-                    enableScripts: true
-                });
-                panel.webview.html = getWebViewContent(fakeData);
-            }
-        }
-    });
-    context.subscriptions.push(searchSelection);
+    vscode.window.registerWebviewViewProvider('search-result', new SearchSideBarProvider(context.extensionUri));
 }
-function getWebViewContent(data) {
-    // TODO: H5展示页面
-    return '';
-}
-// This method is called when your extension is deactivated
 function deactivate() { }
+class SearchSideBarProvider {
+    extensionUri;
+    constructor(extensionUri) {
+        this.extensionUri = extensionUri;
+    }
+    resolveWebviewView(webviewView, context, _token) {
+        webviewView.webview.options = {
+            enableScripts: true,
+            localResourceRoots: [vscode.Uri.joinPath(this.extensionUri, 'media/chatbot/dist')]
+        };
+        const htmlPath = path.join(this.extensionUri.fsPath, 'media/chatbot/dist', 'index.html');
+        let htmlContent = fs.readFileSync(htmlPath, 'utf8');
+        // 获取 Webview URI
+        const webviewUri = webviewView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionUri, 'media/chatbot/dist')).toString();
+        console.log(webviewUri);
+        // 插入脚本，将 webviewUri 传递给前端应用
+        const injectInContent = `<script> window.webviewUri = "${webviewUri}"</script>`;
+        // 使用正则表达式替换 script 和 link 标签中的 src 和 href
+        htmlContent = htmlContent.replace(/<script\s+.*?src="([^"]+)"/g, (match, src) => {
+            const newSrc = vscode.Uri.joinPath(vscode.Uri.parse(webviewUri), src).toString();
+            return match.replace(src, newSrc);
+        });
+        htmlContent = htmlContent.replace(/<link\s+.*?href="([^"]+)"/g, (match, href) => {
+            const newHref = vscode.Uri.joinPath(vscode.Uri.parse(webviewUri), href).toString();
+            return match.replace(href, newHref);
+        });
+        // 将 injectInContent 插入到 HTML 内容中
+        htmlContent = htmlContent.replace('</head>', `${injectInContent}</head>`);
+        webviewView.webview.html = htmlContent;
+    }
+}
 //# sourceMappingURL=extension.js.map
