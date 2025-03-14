@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+code-search/code-search
+search-extension/node_modules/
+search-extension/.DS_Store
+search-extension/media/.DS_Store
+code-search/.idea
+search-extension/.idea
+search-extension/media/chatbot/node_modules
+
