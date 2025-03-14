@@ -4,6 +4,7 @@ import requests
 from fastapi import FastAPI
 from pydantic import BaseModel
 from elasticsearch import Elasticsearch
+from fastapi.middleware.cors import CORSMiddleware
 
 #  Elasticsearch config
 host = "http://9.134.118.234"
@@ -12,6 +13,15 @@ index_name = 'code'
 
 # init a fastapi service
 app = FastAPI()
+
+# 配置 CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 允许所有源，生产环境建议设置具体的源
+    allow_credentials=True,
+    allow_methods=["*"],  # 允许所有 HTTP 方法
+    allow_headers=["*"],  # 允许所有 headers
+)
 
 #  init a es service
 es_client = Elasticsearch(f"{host}:{port}")
@@ -62,12 +72,14 @@ def search_content(search_request: SearchData):
     }
     response = requests.get(url, headers=headers, data=json.dumps(search_query))
     if response.status_code == 200:
-        return [{
-            "content": item['_source']['content'],
-            "file_path": item['_source']['file_name'],
+        res = [{
+            "repo_path": item['_source']['file_name'],
+            "repo_name": item['_source']['file_name'],
             "license": item['_source']['lic'],
             "stars": item['_source']['stars'],
-            "highlight": item['highlight']['content'][0]
+            "highlight": item['highlight']['content'][0],
+            "language": item['_source']['lang'],
         } for item in response.json()['hits']["hits"]]
+        return res
     else:
         return response.json()
