@@ -7,4 +7,4 @@ search-extension/media/.DS_Store
 code-search/.idea
 search-extension/.idea
 search-extension/media/chatbot/node_modules
-
+code-search/__pycache__

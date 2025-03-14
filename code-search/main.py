@@ -1,19 +1,17 @@
 import json
 import os
-from pprint import pprint
-
 import requests
 from fastapi import FastAPI
 from pydantic import BaseModel
 from elasticsearch import Elasticsearch
 
 #  Elasticsearch config
-host = os.getenv('ES_HOST')
-port = os.getenv('ES_PORT')
+host = "http://9.134.118.234"
+port = "9200"
 index_name = 'code'
 
 # init a fastapi service
-# app = FastAPI()
+app = FastAPI()
 
 #  init a es service
 es_client = Elasticsearch(f"{host}:{port}")
@@ -22,6 +20,7 @@ es_client = Elasticsearch(f"{host}:{port}")
 #  define post struct
 class SearchData(BaseModel):
     query: str
+
 
 # @app.post("/search/")
 # def read_root(data: SearchData) -> json:
@@ -33,13 +32,26 @@ class SearchData(BaseModel):
 #     }
 
 
-def search_content(index, query):
-    url = f'{os.getenv("ES_HOST")}:{os.getenv("ES_PORT")}/{index}/_search'
+@app.get("/test")
+def test():
+    url = f'{host}:{9200}'
+    headers = {'Content-Type': 'application/json'}
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Error: {response.text}")
+        return None
+
+
+@app.post("/search")
+def search_content(search_request: SearchData):
+    url = f'{host}:{port}/code/_search'
     headers = {'Content-Type': 'application/json'}
     search_query = {
         "query": {
             "match": {
-                "content": query
+                "content": search_request.query
             }
         },
         "highlight": {
@@ -50,11 +62,12 @@ def search_content(index, query):
     }
     response = requests.get(url, headers=headers, data=json.dumps(search_query))
     if response.status_code == 200:
-        return response.json()
+        return [{
+            "content": item['_source']['content'],
+            "file_path": item['_source']['file_name'],
+            "license": item['_source']['lic'],
+            "stars": item['_source']['stars'],
+            "highlight": item['highlight']['content'][0]
+        } for item in response.json()['hits']["hits"]]
     else:
-        print(f"Error: {response.text}")
-        return None
-
-if __name__ == '__main__':
-    res = search_content(index_name, 'for i:= range()')
-    print(res["hits"]["hits"][0]["_source"]["content"])
+        return response.json()
