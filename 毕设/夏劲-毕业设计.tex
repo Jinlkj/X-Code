@@ -118,7 +118,6 @@
 学\qquad 生：夏劲\\
 学\qquad 号：20214966\\
 指导教师：刘超\\
-助理指导教师：李XX\\
 专\qquad 业：软件工程\\
 \end{tabular}
 \end{center}
@@ -147,8 +146,7 @@ Undergraduate Thesis (Design) of Chongqing University}
 ~\\
 \begin{center}
 \zihao{2}
-\textbf{
-Study on Calculation method of XXX }
+\textbf{Design and Implementation of a Multi-Programming Language Code Retrieval System}
 \end{center}
 
 ~\\
@@ -163,27 +161,25 @@ Study on Calculation method of XXX }
 \begin{center}
 \zihao{3} 
 \textbf{By}  \\
-\textbf{WANG Jianhua }
+\textbf{XIAJin}
 \end{center}
 
 \begin{center}
 \zihao{3} 
 \textbf{Supervised by}\\
-\textbf{Prof. YANG XX}\\
-\textbf{and}\\
-\textbf{Prof. LI XX}
+\textbf{Prof. LIU CHAO}\\
 \end{center}
 
 \begin{center}
 \zihao{-2} 
-\textbf{XXXXXX}\\ %专业
-\textbf{XXXXXX}\\ %学院
+\textbf{Software Engineering}\\ %专业
+\textbf{	School of Big Data and Software Engineering}\\ %学院
 \textbf{Chongqing University}
 \end{center}
 
 \begin{center}
 \zihao{3} 
-\textbf{June，20XX}
+\textbf{June，2025}
 \end{center}
 
 
@@ -202,14 +198,11 @@ Study on Calculation method of XXX }
 \section*{摘\quad 要}
 %摘要：二字间空两格，黑体三号居中，段前，段后各空一行。
 
-摘要是论文（设计）内容不加注释和评论的简短陈述，应具有独立性和自明性，即不阅读论文（设计）的全文，就可以获得必要的信息。\par 
-摘要一般应说明研究工作的目的 和意义、研究思想和方法、研究过程、研究结果和最终结论等。摘要中一般不用图、表、化学结构式、计算机程序，不用非公知公用的符号、术语和非法定的计量单位。\par 
-中文摘要一般为300-500汉字。\par 
-摘要页置于英文题名页后。 \par 
-关键词是从论文（设计）题名、摘要或正文中选取的对表示论文（设计）主题内容起关键作用，且具有检索意义的词或词组。一般每篇论文（设计）应选取3-5个词作为关键词，以显著的字符另起一行，排在同种语言摘要的下方，尽量用《汉语主题词表》或各专业主题词表提供的规范词。\par 
-关键词与摘要的内容之间空一行。关键词的词间用分号间隔，末尾不加标点。\\
+随着编程语言的多样化和开源项目的迅速增长，开发者在寻找特定代码片段时面临着越来越大的挑战。现有的代码托管平台主要依赖关键词匹配和特定搜索条件进行检索，效率较低且使用门槛较高。大语言模型逐渐成为科研和工业界的热点，利用大语言模型可以轻松将用户的自然语言转译为具有查询功能的条件，并结合具体信息拓展补充用户的查询条件，从而实现更高效的查询体验。本项目旨在利用大语言模型实现一款面向多编程语言的代码检索系统。\par
+本文首先介绍了大语言模型的发展情况，并论证了使用大语言模型进行查询条件重写的可行性，强调了提示词工程在这一过程中的重要性。接着简述了前端框架Vue、Visual Studio Code平台的插件开发、Elasticsearch和FastAPI等后台开发框架。根据系统的应用目标，本文进行了系统需求分析，设计了系统架构、功能和数据库结构。在此基础上，本项目开发了基于FastAPI的后台管理逻辑服务、基于Elasticsearch的代码检索服务以及基于DeepSeek-R1的查询重写服务。通过Visual Studio Code平台提供的接口，结合Vue框架实现了Visual Studio Code插件的前端开发，完成了快捷键绑定、项目搜索等一系列功能。\par
+本项目开发的面向多编程语言的代码检索系统具有界面美观、操作友好、查询效率高、查询准确等诸多优点。基于FastAPI开发的后台管理系统易于管理和维护，帮助开发人员实现高效的多编程语言项目代码搜索。\par
 ~\\
-\hspace*{2em}{\heiti \zihao{-4}关键词}：学位论文；论文格式；规范化；模板\\
+\hspace*{2em}{\heiti \zihao{-4}关键词}：代码搜索；Elasticsearch；大模型提示工程\\
 %关键字：宋体12磅，行距20磅，段前段后0磅，关键字之间用分号隔开,关键词三个字加粗。
 
 \newpage
@@ -221,13 +214,15 @@ Study on Calculation method of XXX }
 
 \section*{ABSTRACT}
 %ABSTRCT：Times New Roman 加粗三号，段前段后空一行
+As programming languages diversify and open-source projects rapidly grow, developers face increasing challenges in finding specific code snippets. Existing code hosting platforms primarily rely on keyword matching and specific search conditions, resulting in low efficiency and a high usage threshold. Large language models have become a hot topic in both research and industry. By leveraging these models, users' natural language can be easily translated into functional query conditions, which can be further expanded with specific information to enhance the query experience. This project aims to implement a code retrieval system for multiple programming languages using large language models.\par
 
-As a primary means of demonstrating research findings for undergraduate students, dissertation is a systematic and standardized record of the new inventions, theories or insights obtained by the author in the research work. It can not only function as an important reference when students pursue further studies, but also contribute to scientific research and social development.\par 
-This template is therefore made to improve the quality of undergraduates’ dissertation and to further standardize it both in content and in format.
+This paper first introduces the development of large language models and demonstrates the feasibility of using them for query condition rewriting, highlighting the importance of prompt engineering in this process. It then briefly describes the front-end framework Vue, plugin development for the Visual Studio Code platform, and back-end development frameworks such as Elasticsearch and FastAPI. Based on the system's application goals, a system requirements analysis was conducted, and the system architecture, functionality, and database structure were designed. On this basis, the project developed a back-end management logic service based on FastAPI, a code retrieval service using Elasticsearch, and a query rewriting service using DeepSeek-R1. The front-end development of the Visual Studio Code plugin was achieved through the platform's provided interfaces, combined with the Vue framework, implementing features such as shortcut key bindings and project search.\par
+
+The code retrieval system developed in this project for multiple programming languages offers numerous advantages, including an aesthetically pleasing interface, user-friendly operation, high query efficiency, and accuracy. The back-end management system developed with FastAPI is easy to manage and maintain, aiding developers in efficiently searching for code across multi-language projects.\par 
 %英文摘要内容：Times New Roman 12磅（即小四号），行距20磅段前段后0磅
 
 ~\\ 
-\hspace*{2em}\textbf{Key words}: dissertation;dissertation format;standardization;template\\
+\hspace*{2em}\textbf{Key words}: Code Search;Elasticsearch;LLM Prompt\\
 %Keywords：Times New Roman 12磅，行距20磅， “key words” 两词加粗
 
 \newpage
@@ -254,13 +249,19 @@ This template is therefore made to improve the quality of undergraduates’ diss
 
 \titleformat{\section}{\heiti\zihao{3}\centering}{\thesection}{0.5em}{}[]
 \section{绪论}
-\subsection{引言}
+\subsection{研究目的及意义}
 \zihao{-4} 
-学位论文的引言是研究工作的开端，旨在引导读者对研究的背景、问题、目的和重要性有所了解。在背景介绍中，阐述与研究主题相关的一般性信息，为引入具体问题做铺垫。问题陈述明确阐述研究的核心问题，强调研究的重要性。进一步，目的和目标部分解释研究的意图和预期贡献。对研究范围和限制进行概述，确立研究的边界和可能的局限性。在方法论概述中简要介绍选择的研究方法及其与问题的关联。最后，通过论文结构概述，为读者提供整篇论文的框架，使其能够预知各章节内容。整个引言力求简明扼要，引发读者兴趣，并确保与后续章节之间的连贯性，以保持整体逻辑清晰……
+随着机器学习、深度学习等人工智能技术的快速发展，这些高新技术在解决传统领域挑战中发挥了重要作用。在搜索领域，传统搜索服务提供商通常直接采用Elasticsearch作为搜索引擎来完成信息检索。然而，传统搜索引擎基于倒排索引的检索方式要求用户提供极其精确的搜索词，并掌握一定的搜索技巧，这极大地限制了普通用户的搜索体验。随着人工智能技术，尤其是大语言模型（LLM）的进步，利用其自然语言友好特性来辅助搜索已成为科研界和工业界的研究热点。\par
+Elasticsearch是一种分布式、RESTful风格的搜索和分析引擎，其强大的搜索能力源于其独特的倒排索引结构（Inverted Index）。这种数据结构使Elasticsearch具备高效的全文搜索能力、实时数据处理能力以及高可扩展性，同时能够处理结构化和非结构化数据。\par
+大型语言模型（LLM）是拥有海量参数和卓越学习能力的高级语言模型，其核心模块是Transformer架构中的自注意力机制。自注意力机制作为语言建模任务的基本构建块，能够有效处理顺序数据，实现并行化计算，并捕捉文本中的远程依赖关系。LLM的显著优势在于其能够理解自然语言并执行基于自然语言的指令，这对用户侧软件服务非常友好。然而，LLM的另一特点是其庞大的模型参数和极高的训练成本。从头预训练一个大型模型所需的资源（如数百万高性能显卡卡时）是普通实验室或个人工作者难以承担的。因此，针对特定场景的任务，工业界普遍采用开源的大语言模型进行监督微调（SFT），或通过Prompt工程来实现任务目标。\par
+本项目旨在构建一个面向多编程语言的代码检索系统，该系统将融合大语言模型的自然语言友好能力，实现对用户搜索词的重写、完善，结合Elasticsearch强大的多结构文本搜索能力实现用户方便快速搜索多语言项目的能力。同时我还讲相关能力集成到Visual Studio Code平台，发布免费的开源插件，为所有开发者提供便捷高效的代码搜索服务。
 
-\subsection{本文主要研究内容}
+
+\subsection{国内外研究现状}
 \zihao{-4} 
-研究内容部分应着重介绍你具体研究的对象、问题或主题。明确概括你的研究范围和涉及的关键要素。强调你的研究如何填补领域现有知识的空白或者为该领域做出独特的贡献。这一部分的目标是为读者提供关于研究的具体方向和深度的清晰认识……
+2004年，Shay Banon创造了Elasticsearch的前身——Compass。在Compass的基础上，Shay Banon进一步实现了分布式和可扩展性优化，并提供了HTTP接口，使得Java以外的语言也能调用。2010年，Elasticsearch的第一个版本正式发布。\par
+Elasticsearch是一种成熟的搜索解决方案，一些大型搜索公司如Google和百度都基于Elasticsearch进行研发。Elasticsearch支持RESTful风格的调用，客户端可以通过HTTP请求直接操作Elasticsearch服务。它还提供了多种客户端支持，包括Java、Python、Go、PHP等语言的SDK，以及JDBC、ODBC等标准化接口。Elasticsearch广泛应用于全文搜索、日志分析、实时数据分析、地理空间搜索以及商业智能领域的数据聚合分析。在部署方面，Elasticsearch支持单节点模式，适用于开发和测试环境，可以通过简单的Docker命令快速启动。在生产环境中，通常采用分布式集群部署，通过分片（Shard）和副本（Replica）机制实现水平扩展和高可用性。集群节点可以动态扩容并自动平衡数据负载，同时支持主节点、数据节点、协调节点等角色划分，以优化资源分配。\par
+在大语言模型方面，
 
 \subsection{本文研究意义}
 \zihao{-4} 
