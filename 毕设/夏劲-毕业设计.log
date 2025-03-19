@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  17 MAR 2025 17:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  19 MAR 2025 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,41 +1261,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--227
 \openout5 = `夏劲-毕业设计.toc'.
 
  [3] [1] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+File: transformer.png Graphic file (type bmp)
+<transformer.png>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
+ [4]
+File: MoE.png Graphic file (type bmp)
+<MoE.png>
+ [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 File: fig2.png Graphic file (type bmp)
 <fig2.png>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 310.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 310.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 310.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 354.
-[4] [5] [6] [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 362.
+[7] [8] [9] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
  []
 
-[10] (./夏劲-毕业设计.aux)
+[12] [13] [14] (./夏劲-毕业设计.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1309,15 +1315,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `夏劲-毕业设计.out' has not changed.
-(rerunfilecheck)             Checksum: 545D2D50ED49BC993FCE9713794617F7;2172.
+(rerunfilecheck)             Checksum: BB9D14D68DD55C56DD1F95B18826553F;2325.
  ) 
 Here is how much of TeX's memory you used:
- 30202 strings out of 474773
- 666276 string characters out of 5757724
- 1940839 words of memory out of 5000000
- 51799 multiletter control sequences out of 15000+600000
- 583233 words of font info for 164 fonts, out of 8000000 for 9000
+ 30243 strings out of 474773
+ 667662 string characters out of 5757724
+ 1943839 words of memory out of 5000000
+ 51836 multiletter control sequences out of 15000+600000
+ 583249 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,13n,107p,1203b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,107p,1203b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 夏劲-毕业设计.pdf (15 pages).
+Output written on 夏劲-毕业设计.pdf (19 pages).
