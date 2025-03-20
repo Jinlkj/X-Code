@@ -8,18 +8,27 @@
 \contentsline {section}{\numberline {2}相关理论和技术}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}大语言模型}{4}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Transformer}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}混合专家模型}{5}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Prompt工程}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}本章小结}{6}{subsection.2.3}%
-\contentsline {section}{\numberline {3}图表、公式格式}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}图表格式}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}公式格式}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}本章小结}{7}{subsection.3.3}%
-\contentsline {section}{\numberline {4}结论与展望}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}主要结论}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}研究展望}{8}{subsection.4.2}%
-\contentsline {section}{参考文献}{9}{subsection.4.2}%
-\contentsline {section}{附录A：XX公式的推导}{10}{subsection.4.2}%
-\contentsline {section}{致谢}{11}{subsection.4.2}%
-\contentsline {section}{原创性声明和使用授权书}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.2}混合专家模型}{7}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}提示词工程}{8}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Elasticsearch}{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Elasticsearch 的核心概念}{9}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Visual Studio Code插件}{11}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Vue框架}{11}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}本章小结}{12}{subsection.2.4}%
+\contentsline {section}{\numberline {3}系统需求分析与设计}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}系统需求分析}{13}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}用户需求}{13}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}系统功能性需求分析}{14}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}系统非功能性需求分析}{17}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}系统架构设计}{17}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}系统总体架构设计}{17}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}公式格式}{19}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}本章小结}{19}{subsection.3.4}%
+\contentsline {section}{\numberline {4}结论与展望}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}主要结论}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}研究展望}{20}{subsection.4.2}%
+\contentsline {section}{参考文献}{21}{subsection.4.2}%
+\contentsline {section}{附录A：XX公式的推导}{22}{subsection.4.2}%
+\contentsline {section}{致谢}{23}{subsection.4.2}%
+\contentsline {section}{原创性声明和使用授权书}{24}{subsection.4.2}%
 \contentsfinish 
