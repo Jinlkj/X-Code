@@ -1,71 +1,54 @@
 # search-extension README
 
-This is the README for your extension "search-extension". After writing up a brief description, we recommend including the following sections.
+这个 Visual Studio Code 扩展提供了一个侧边栏，其中的 Webview 显示来自 Vue.js 项目的内容。请按照以下说明进行设置和运行扩展。
 
-## Features
+## 前提条件
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- [Node.js](https://nodejs.org/)（包含 npm）
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-For example if there is an image subfolder under your extension project workspace:
+## 入门指南
 
-\!\[feature X\]\(images/feature-x.png\)
+### 1. 启动 Vue.js 项目
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+首先，导航到 Vue.js 项目目录并启动开发服务器：
 
-## Requirements
+```bash
+cd media/chatbot
+npm install
+npm run serve
+```
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+这将启动 Vue.js 开发服务器，通常在 `http://localhost:8080` 上运行。
 
-## Extension Settings
+### 2. 启动 Visual Studio Code 扩展
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+在 Visual Studio Code 中调试和运行扩展：
 
-For example:
+#### 在 Mac 上：
 
-This extension contributes the following settings:
+按 `fn + F5`。
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+#### 在 Windows 上：
 
-## Known Issues
+按 `F5`。
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+这将打开一个加载了扩展的新 Visual Studio Code 实例。
 
-## Release Notes
+### 3. 查看 Webview 的网页源码
 
-Users appreciate release notes as you update your extension.
+要检查 Webview 的网页源码，可以打开开发者工具：
 
-### 1.0.0
+1. 按 `Command + Shift + P` 打开命令面板。
+2. 输入并选择 `Open Webview Developer Tools`。
 
-Initial release of ...
+这将打开开发者工具，您可以在其中检查 Webview 内容的 HTML、CSS 和 JavaScript。
 
-### 1.0.1
+## 其他信息
 
-Fixed issue #.
+- 请确保在启动扩展之前，Vue.js 开发服务器已运行，因为 Webview 依赖它来显示内容。
+- 如果遇到任何问题，请检查终端输出的错误信息，并确保所有依赖项已正确安装。
 
-### 1.1.0
+## 许可证
 
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+此项目使用 MIT 许可证。有关详细信息，请参阅 [LICENSE](../LICENSE) 文件。

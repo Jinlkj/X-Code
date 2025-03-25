@@ -19,7 +19,7 @@
             {
                 "id": "code-search-sidebar",
                 "title": "Repository Search",
-                "icon": "media/chatbot/dist/static/icon/chatbot.svg"
+                "icon": "chatbot.svg"
             }
         ]
       },
