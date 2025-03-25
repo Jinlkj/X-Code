@@ -22,30 +22,33 @@ class SearchSideBarProvider implements vscode.WebviewViewProvider {
             enableScripts: true,
             localResourceRoots: [vscode.Uri.joinPath(this.extensionUri, 'media/chatbot/dist')]
         };
-
-        const htmlPath = path.join(this.extensionUri.fsPath, 'media/chatbot/dist', 'index.html');
-        let htmlContent = fs.readFileSync(htmlPath, 'utf8');
-
-        // 获取 Webview URI
-        const webviewUri = webviewView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionUri, 'media/chatbot/dist')).toString();
-        console.log(webviewUri);
-        // 插入脚本，将 webviewUri 传递给前端应用
-        const injectInContent = `<script> window.webviewUri = "${webviewUri}"</script>`;
-
-        // 使用正则表达式替换 script 和 link 标签中的 src 和 href
-        htmlContent = htmlContent.replace(/<script\s+.*?src="([^"]+)"/g, (match, src) => {
-            const newSrc = vscode.Uri.joinPath(vscode.Uri.parse(webviewUri), src).toString();
-            return match.replace(src, newSrc);
-        });
-
-        htmlContent = htmlContent.replace(/<link\s+.*?href="([^"]+)"/g, (match, href) => {
-            const newHref = vscode.Uri.joinPath(vscode.Uri.parse(webviewUri), href).toString();
-            return match.replace(href, newHref);
-        });
-
-        // 将 injectInContent 插入到 HTML 内容中
-        htmlContent = htmlContent.replace('</head>', `${injectInContent}</head>`);
-
+        const htmlContent = `
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Search Sidebar</title>
+                <style>
+                    body, html {
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    iframe {
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                    }
+                </style>
+            </head>
+            <body>
+                <iframe src="http://localhost:8080"></iframe>
+            </body>
+            </html>
+        `;
         webviewView.webview.html = htmlContent;
     }
 }
