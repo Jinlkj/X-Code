@@ -286,6 +286,56 @@ Elasticsearch是一种成熟的搜索解决方案，一些大型搜索公司如G
 \fancyhead[RH]{\zihao{-5}{\songti 2\quad 正文文字格式}}
 
 \section{相关理论和技术}
+\subsection{微服务架构}
+\zihao{-4}
+微服务架构是本系统实现的核心技术之一。与微服务相对应的是传统的单体架构方案。简单来说，单体架构（图\ref{compare}左所示）将整个系统封装在一个程序中，集成了登录、鉴权、业务逻辑、数据处理等所有功能模块。这种架构的特点是“大而全”，对于小型系统而言，使用单体架构能够缩短开发周期，同时也更符合开发者的直觉和习惯。\par
+相比之下，微服务架构则采用了一种完全不同的设计理念。一个常见的微服务架构如图\ref{compare}右所示，它将系统的各个功能模块拆分为独立的服务，每个服务专注于完成某一特定功能，并以单独的程序形式运行。整个系统由一组相互协作的微服务构成，服务之间通过网络进行通信。微服务架构的核心特点在于服务的颗粒度更细，职责更加单一。通常情况下，每个微服务会运行在 Docker 容器中，而 Kubernetes 则负责对这些服务进行高效的管理和编排。通过这种方式，微服务架构不仅提升了系统的灵活性和可扩展性，还为大型复杂系统的开发和维护提供了更强的支持。\par
+\begin{figure}[H]
+	\center{\includegraphics[width=0.95\textwidth]  {compare.png}} 
+	\caption{单体架构和微服务架构对比}
+	\label{compare}
+\end{figure}
+\subsubsection{GRPC框架}
+gRPC是一种高性能、开源的远程过程调用(RPC)框架，它可以在任何环境中运行。gRPC允许客户端应用程序直接调用服务器端应用的方法，就像它们是本地对象一样，这使得分布式应用程序开发变得更加容易。gRPC使用HTTP/2作为传输协议，支持双向流、头部压缩等特性，从而提供了更高效的网络通信。此外，gRPC通过Protocol Buffers定义接口和服务，这是一种轻量级、跨平台的消息格式，有助于提高数据交换效率并减少带宽使用。在微服务架构中，gRPC因其高效性而被广泛用于服务间通信。\par
+在gRPC中，服务定义和数据交换格式通常使用Protocol Buffers（简称protobuf）。Protocol Buffers是由Google设计的一种轻量级、跨平台的消息格式，用于序列化结构化数据。通过.proto文件，开发者可以定义自己的数据结构和服务接口。这些定义被编译成不同编程语言的代码，以便生成易于使用的类来构建强类型的请求和响应消息。\par
+下面是一段protobuf的示例：
+\begin{verbatim}
+syntax = "proto3";
+
+service SearchService {
+	rpc Search(SearchRequest) returns (SearchResponse);
+}
+
+message SearchRequest {
+	string query = 1;
+}
+
+message SearchResponse {
+	repeated Result results = 1;
+}
+
+message Result {
+	string url = 1;
+	string title = 2;
+	repeated string snippets = 3;
+}
+\end{verbatim}
+与其他序列化协议，例如JSON、XML、BSON等相比，protobuf具有以下特点：\par
+效率与紧凑性：protobuf采用二进制编码，因此生成的消息比基于文本的格式（如JSON或XML）更加紧凑，占用更少的存储空间和带宽。这使得它在需要高效传输大量数据的场景下表现尤为出色。\par
+跨语言支持：protobuf支持多种编程语言，使用grpc自带的编译工具即可快速生成多种语言的桩代码，且生成的代码具有高度的一致性，非常适合多语言协作的微服务架构。与之相比，JSON本身可以适配多种语言，但由于其松散的结构，在不同语言中解析时可能出现意想不到的错误。\par
+向后兼容性：protobuf通过为字段分配唯一的数字标识符，提供了强大的向后兼容性和前向兼容性。即使在消息格式发生变化时（如新增字段），旧版本的系统仍然可以正常工作。与JSON相比，JSON本身没有内置的机制来保证兼容性，因此如果消息格式发生变化，可能会导致解析错误。\par
+\subsubsection{Docker}
+Docker是一个开源的应用容器引擎，使开发者可以将应用程序及其依赖打包到一个可移植的容器中，然后发布到任何流行的Linux或Windows机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（除非显式地设置）。Docker容器的轻量化和快速部署能力使其成为微服务架构中的理想选择。每一个微服务都可以被打包成一个独立的Docker容器，确保了环境一致性，简化了开发、测试和部署流程。同时，由于Docker容器的资源消耗低，多个容器可以在同一台物理机上高效共存，提高了资源利用率。\par
+Docker使用了一种称为联合文件系统（Union File System）的技术，这种技术允许将不同的文件系统层叠加在一起，形成一个统一的视图。每个Docker镜像由一系列只读层组成，这些层包含了操作系统库、运行时、环境变量和用户添加的文件等。当创建一个容器时，Docker会在镜像的最顶层添加一个可写层。得益于Docker的层次化设计， 当修改镜像中的某些层时（例如更新应用代码），只有被修改的那一层需要重建，其他未更改的层可以重复利用。这大大加快了构建过程。在推送或拉取镜像时，只需要传输那些不同于本地已有版本的层，而不是整个镜像（如图\ref{docker}）。这样可以显著减少网络带宽的使用，并加速镜像的分发。除此之外，Docker的层次化设计还让不同层的数据和权限相互隔离，提升了可维护性和安全性。
+\begin{figure}[H]
+	\center{\includegraphics[width=0.95\textwidth]  {docker.png}} 
+	\caption{docker层次化构建示例}
+	\label{docker}
+\end{figure}
+
+
+\subsubsection{Kubernetes}
+Kubernetes是一个用于自动化部署、扩展和管理容器化应用程序的开源平台。它最初由Google设计，现在由Cloud Native Computing Foundation (CNCF)维护。Kubernetes提供了一个强大的框架来运行分布式系统，能够处理负载均衡、故障转移、自我修复以及水平扩展等任务。在微服务架构中，Kubernetes负责管理和编排不同微服务间的交互，确保所有服务按预期工作。通过自动化的滚动更新和回滚功能，Kubernetes也极大地简化了应用程序的维护过程，降低了人为错误的风险。
 \subsection{大语言模型}
 \zihao{-4} 
 大语言模型是实现本系统搜索功能的核心技术。要深入理解当前的大语言模型，必须先了解其核心架构——Transformer。因此，本节将简要介绍Transformer及大语言模型的其他关键技术。
@@ -425,6 +475,47 @@ Vue.js是一套渐进式JavaScript框架，凭借其轻量级架构、低学习�
 	\caption{系统总体架构图}
 	\label{all_structure}
 \end{figure}
+\subsubsection{前端架构设计}
+前端沿用Vue框架的MVVM设计模式，将前端划分为：视图层（View）、视图模型层（ViewModel）、模型层（Model），前端架构设计如图\ref{front_model}所示。\par
+(1)	视图层涉及用户交互界面，包括开发人员的账户注册和登陆页面，项目代码搜索页面，搜索结果展示页面等。\par
+(2)	视图模型层涉及到前端的业务逻辑处理，负责调度视图层和模型层，涉及到前端中账户登录注册逻辑、项目搜索逻辑、项目详情展示逻辑等。\par
+(3)	模型层涉及到前端的临时数据存储，对来自视图模型层的相关数据进行缓存，涉及到对视图层呈现数据的监听和对应变化处理。\par
+\begin{figure}[H]
+	\center{\includegraphics[width=0.95\textwidth]  {front_model.png}} 
+	\caption{前端架构图}
+	\label{front_model}
+\end{figure}
+\subsubsection{后端架构设计}
+系统后端采用微服务架构方式，分为网关服务、鉴权服务、搜索服务和LLM服务四大核心服务，如图\ref{back_model}所示。\par
+（1）网关服务提供http服务接口，所有的请求全部通过网关进行统一路由，网管服务通过鉴权服务确保所有的请求都是安全，可控的。\par
+（2）鉴权服务，对请求中的token进行鉴权，返回网关鉴权的结果。同时对用户的注册和登陆请求进行处理。\par
+（3）搜索服务，负责代码搜索的核心逻辑，与数据层进行交互，同时LLM服务进行协作，处理用户的搜索请求。\par
+（4）LLM服务，本项目的AI功能由LLM服务提供支持，和搜索服务进行交互，完成对用户搜索词的改写，达到更好的搜索效果。\par
+\begin{figure}[H]
+	\center{\includegraphics[width=0.95\textwidth]  {back_model.png}} 
+	\caption{后端架构图}
+	\label{back_model}
+\end{figure}
+\subsection{系统业务功能设计}
+根据系统需求分析结果以及系统前后端架构设计，将整体系统划分为用户注册、用户登陆、用户搜索、搜索详情四个主要板块。其中用户登陆、注册非本次系统的重点功能，因此本小节将详细介绍展示搜索板块的功能设计和时序图分析。
+\subsubsection{用户搜索}
+\subsection{数据库设计}
+\subsection{本章小结}
+\section{系统后端应用层实现}
+\subsection{网关实现}
+\subsection{鉴权实现}
+\subsection{搜索实现}
+\subsection{本章小结}
+\section{系统前端应用层实现}
+\subsection{VS Code插件}
+\subsection{登陆注册页面}
+\subsection{搜索页面}
+\subsection{结果展示页面}
+\subsection{本章小结}
+\section{总结与展望}
+
+
+
 \begin{table}[htbp]
 \centering
 \caption{高频感应加热的基本参数}

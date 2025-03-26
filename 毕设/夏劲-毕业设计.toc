@@ -6,29 +6,51 @@
 \contentsline {subsection}{\numberline {1.3}论文研究内容}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}论文组织架构}{3}{subsection.1.4}%
 \contentsline {section}{\numberline {2}相关理论和技术}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}大语言模型}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Transformer}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}混合专家模型}{7}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}提示词工程}{8}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Elasticsearch}{9}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Elasticsearch 的核心概念}{9}{subsubsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.3}Visual Studio Code插件}{11}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Vue框架}{11}{subsubsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.4}本章小结}{12}{subsection.2.4}%
-\contentsline {section}{\numberline {3}系统需求分析与设计}{13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}系统需求分析}{13}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}用户需求}{13}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}系统功能性需求分析}{14}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}系统非功能性需求分析}{17}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}系统架构设计}{17}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}系统总体架构设计}{17}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}公式格式}{19}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}本章小结}{19}{subsection.3.4}%
-\contentsline {section}{\numberline {4}结论与展望}{20}{section.4}%
-\contentsline {subsection}{\numberline {4.1}主要结论}{20}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}研究展望}{20}{subsection.4.2}%
-\contentsline {section}{参考文献}{21}{subsection.4.2}%
-\contentsline {section}{附录A：XX公式的推导}{22}{subsection.4.2}%
-\contentsline {section}{致谢}{23}{subsection.4.2}%
-\contentsline {section}{原创性声明和使用授权书}{24}{subsection.4.2}%
+\contentsline {subsection}{\numberline {2.1}微服务架构}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}GRPC框架}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Docker}{6}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Kubernetes}{7}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}大语言模型}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Transformer}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}混合专家模型}{11}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}提示词工程}{12}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Elasticsearch}{13}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Elasticsearch 的核心概念}{13}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Visual Studio Code插件}{15}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Vue框架}{15}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}本章小结}{16}{subsection.2.5}%
+\contentsline {section}{\numberline {3}系统需求分析与设计}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}系统需求分析}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}用户需求}{17}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}系统功能性需求分析}{18}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}系统非功能性需求分析}{21}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}系统架构设计}{21}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}系统总体架构设计}{21}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}前端架构设计}{23}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}后端架构设计}{23}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}系统业务功能设计}{24}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}用户搜索}{25}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.4}数据库设计}{25}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}本章小结}{25}{subsection.3.5}%
+\contentsline {section}{\numberline {4}系统后端应用层实现}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}网关实现}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}鉴权实现}{25}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}搜索实现}{25}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}本章小结}{25}{subsection.4.4}%
+\contentsline {section}{\numberline {5}系统前端应用层实现}{25}{section.5}%
+\contentsline {subsection}{\numberline {5.1}VS Code插件}{25}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}登陆注册页面}{25}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}搜索页面}{25}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}结果展示页面}{25}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}本章小结}{25}{subsection.5.5}%
+\contentsline {section}{\numberline {6}总结与展望}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}公式格式}{25}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}本章小结}{26}{subsection.6.2}%
+\contentsline {section}{\numberline {7}结论与展望}{27}{section.7}%
+\contentsline {subsection}{\numberline {7.1}主要结论}{27}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}研究展望}{27}{subsection.7.2}%
+\contentsline {section}{参考文献}{28}{subsection.7.2}%
+\contentsline {section}{附录A：XX公式的推导}{29}{subsection.7.2}%
+\contentsline {section}{致谢}{30}{subsection.7.2}%
+\contentsline {section}{原创性声明和使用授权书}{31}{subsection.7.2}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  20 MAR 2025 16:56
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  26 MAR 2025 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1265,32 +1265,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--227
 
  []
 
-[2] (./夏劲-毕业设计.toc)
+[2] (./夏劲-毕业设计.toc [3])
 \tf@toc=\write5
 \openout5 = `夏劲-毕业设计.toc'.
 
- [3] [4] [1] [2] [3]
+ [4] [1] [2] [3]
+File: compare.png Graphic file (type bmp)
+<compare.png>
+ [4]
+
+Package fontspec Warning: Font "STFangsong" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: Could not resolve font "STFangsong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "STFangsong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "STFangsong/I" (it probably
+(fontspec)             doesn't exist).
+
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 30
+2.
+LaTeX Font Info:    No file TUpcr.fd. on input line 302.
+
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 302.
+
+
+Package fontspec Info: Font family 'STFangsong(0)' created for font
+(fontspec)             'STFangsong' with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STFangsong/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+[5]
+File: docker.png Graphic file (type bmp)
+<docker.png>
+ [6] [7]
 File: transformer.png Graphic file (type bmp)
 <transformer.png>
- [4] [5]
+ [8] [9]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 351.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 351.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 351.
 File: MoE.png Graphic file (type bmp)
 <MoE.png>
- [6] [7]
+ [10] [11]
 File: zero_shot.png Graphic file (type bmp)
 <zero_shot.png>
 File: few_shot.png Graphic file (type bmp)
 <few_shot.png>
- [8] [9]
+ [12] [13]
 File: Elasticsearch.png Graphic file (type bmp)
 <Elasticsearch.png>
- [10]
-Overfull \hbox (13.74126pt too wide) in paragraph at lines 369--369
+ [14]
+Overfull \hbox (13.74126pt too wide) in paragraph at lines 419--419
 []\TU/SongtiSCLight(0)/m/n/12.045 在 设 计 模 式 方 面，| \TU/TimesNewRoman(0)/m/n/12.0
 45 Vue \TU/SongtiSCLight(0)/m/n/12.045 采 用 模 型\TU/TimesNewRoman(0)/m/n/12.045 -
 \TU/SongtiSCLight(0)/m/n/12.045 视 图\TU/TimesNewRoman(0)/m/n/12.045 -\TU/SongtiS
@@ -1301,41 +1342,48 @@ Model\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 MVVM\T
 
 File: MVVM.png Graphic file (type bmp)
 <MVVM.png>
-[11] [12]
+[15] [16]
 File: flow.png Graphic file (type bmp)
 <flow.png>
- [13]
+ [17]
 File: user_use.png Graphic file (type bmp)
 <user_use.png>
- [14] [15]
+ [18] [19]
 File: operator_user.png Graphic file (type bmp)
 <operator_user.png>
- [16]
+ [20]
 File: structure.png Graphic file (type bmp)
 <structure.png>
+ [21] [22]
+File: front_model.png Graphic file (type bmp)
+<front_model.png>
+ [23]
+File: back_model.png Graphic file (type bmp)
+<back_model.png>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 432.
- [17] [18] [19] [20] [21] [22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 523.
+ [24] [25] [26] [27] [28] [29]
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--561
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
 
  []
 
-[24] (./夏劲-毕业设计.aux)
+[31] (./夏劲-毕业设计.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1349,15 +1397,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `夏劲-毕业设计.out' has not changed.
-(rerunfilecheck)             Checksum: A69ECC6D1802AB8771C2F355F3CFC4EA;3560.
+(rerunfilecheck)             Checksum: 94115D708AA721F76AF8D55CC78A4C59;5800.
  ) 
 Here is how much of TeX's memory you used:
- 30350 strings out of 474773
- 668002 string characters out of 5757724
+ 30463 strings out of 474773
+ 672289 string characters out of 5757724
  1943839 words of memory out of 5000000
- 51932 multiletter control sequences out of 15000+600000
- 583249 words of font info for 166 fonts, out of 8000000 for 9000
+ 52032 multiletter control sequences out of 15000+600000
+ 583289 words of font info for 171 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,13n,107p,1203b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,107p,1203b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 夏劲-毕业设计.pdf (30 pages).
+Output written on 夏劲-毕业设计.pdf (37 pages).
