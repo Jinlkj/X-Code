@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  26 MAR 2025 15:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  5 MAY 2025 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,7 +939,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip77
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count350
@@ -1002,37 +1002,41 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen331
 \titlewidthfirst=\dimen332
 )
-LaTeX Font Info:    Trying to load font information for TU+ptm on input line 90
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 91
 .
-LaTeX Font Info:    No file TUptm.fd. on input line 90.
+LaTeX Font Info:    No file TUptm.fd. on input line 91.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 90.
+(Font)              using `TU/lmr/m/n' instead on input line 91.
 
-(./夏劲-毕业设计.aux)
+(./夏劲-毕业设计.aux
+
+LaTeX Warning: Label `timeline' multiply defined.
+
+)
 \openout1 = `夏劲-毕业设计.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1072,7 +1076,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 90.
+Package hyperref Info: Link coloring ON on input line 91.
 (./夏劲-毕业设计.out) (./夏劲-毕业设计.out)
 \@outlinefile=\write4
 \openout4 = `夏劲-毕业设计.out'.
@@ -1109,67 +1113,67 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 117.
+ 118.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 117.
+ 118.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 117.
+ 118.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 117.
+ 118.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11
-7.
+8.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 117.
+(Font)              size <10.95> substituted on input line 118.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 117.
+(Font)              size <8> substituted on input line 118.
 
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-17.
+18.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.53937> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.52812> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -1198,14 +1202,14 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
 
  []
 
@@ -1239,7 +1243,7 @@ Package fontspec Info: Font family 'SongtiSCLight(1)' created for font 'Songti
 (fontspec)             Light/BI/OT:language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-[1]
+[1] [2]
 
 Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
 (fontspec)             New Roman' with options [].
@@ -1261,18 +1265,131 @@ Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
-[2] (./夏劲-毕业设计.toc [3])
+[3] (./夏劲-毕业设计.toc [4])
 \tf@toc=\write5
 \openout5 = `夏劲-毕业设计.toc'.
 
- [4] [1] [2] [3]
+ [5] [1] [2] [3] [4] [5] [6]
+File: ast.svg.png Graphic file (type bmp)
+<ast.svg.png>
+ [7] [8]
+File: PDG.png Graphic file (type bmp)
+<PDG.png>
+ [9]
+File: solr.png Graphic file (type bmp)
+<solr.png>
+ [10] [11]
+File: Elasticsearch.png Graphic file (type bmp)
+<Elasticsearch.png>
+
+[12] [13]
+File: transformer.png Graphic file (type bmp)
+<transformer.png>
+ [14] [15]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+ [16]
+File: MoE.png Graphic file (type bmp)
+<MoE.png>
+ [17]
+File: zero_shot.png Graphic file (type bmp)
+<zero_shot.png>
+File: few_shot.png Graphic file (type bmp)
+<few_shot.png>
+ [18] [19]
 File: compare.png Graphic file (type bmp)
 <compare.png>
- [4]
+ [20] [21] [22]
+File: docker.png Graphic file (type bmp)
+<docker.png>
+File: k8s_m.png Graphic file (type bmp)
+<k8s_m.png>
+ [23]
+File: k8s_structure.png Graphic file (type bmp)
+<k8s_structure.png>
+ [24]
+Overfull \hbox (13.74126pt too wide) in paragraph at lines 476--476
+[]\TU/SongtiSCLight(0)/m/n/12.045 在 设 计 模 式 方 面，| \TU/TimesNewRoman(0)/m/n/12.0
+45 Vue \TU/SongtiSCLight(0)/m/n/12.045 采 用 模 型\TU/TimesNewRoman(0)/m/n/12.045 -
+\TU/SongtiSCLight(0)/m/n/12.045 视 图\TU/TimesNewRoman(0)/m/n/12.045 -\TU/SongtiS
+CLight(0)/m/n/12.045 视 图 模 型  |（\TU/TimesNewRoman(0)/m/n/12.045 Model-View-View
+Model\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 MVVM\TU
+/SongtiSCLight(0)/m/n/12.045 ）|
+ []
+
+File: MVVM.png Graphic file (type bmp)
+<MVVM.png>
+[25] [26]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 491.
+
+File: flow.png Graphic file (type bmp)
+<flow.png>
+[27]
+File: user_use.png Graphic file (type bmp)
+<user_use.png>
+ [28] [29]
+File: operator_user.png Graphic file (type bmp)
+<operator_user.png>
+ [30]
+File: structure.png Graphic file (type bmp)
+<structure.png>
+ [31] [32]
+File: ast_example.png Graphic file (type bmp)
+<ast_example.png>
+ [33]
+Overfull \vbox (19.75345pt too high) has occurred while \output is active []
+
+
+[34] [35]
+File: back_model.png Graphic file (type bmp)
+<back_model.png>
+ [36]
+File: gateway.png Graphic file (type bmp)
+<gateway.png>
+ [37]
+File: proto.png Graphic file (type bmp)
+<proto.png>
+ [38]
+File: auth.png Graphic file (type bmp)
+<auth.png>
+ [39]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 576.
+ [40]
+File: search_proto.png Graphic file (type bmp)
+<search_proto.png>
+ [41]
+File: timeline.png Graphic file (type bmp)
+<timeline.png>
+ [42] [43] [44]
+File: prompt1.png Graphic file (type bmp)
+<prompt1.png>
+File: prompt2.png Graphic file (type bmp)
+<prompt2.png>
+ [45] [46]
+Overfull \vbox (66.71056pt too high) has occurred while \output is active []
+
+
+[47]
+Overfull \hbox (3.57642pt too wide) in paragraph at lines 639--639
+[]\TU/SongtiSCLight(0)/m/n/12.045 为 实 现 上 述 目 标，|  本 文 设 计 了 一 种 多 层 次 的 提 示 词 
+模 板，|  其 基 本 结 构 如 图[][]\TU/TimesNewRoman(0)/m/n/12.045 4.25[][]\TU/SongtiSCLig
+ht(0)/m/n/12.045 所
+ []
+
+File: front_model.png Graphic file (type bmp)
+<front_model.png>
+[48]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1289,12 +1406,12 @@ Package fontspec Info: Could not resolve font "STFangsong/B" (it probably
 Package fontspec Info: Could not resolve font "STFangsong/I" (it probably
 (fontspec)             doesn't exist).
 
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 30
-2.
-LaTeX Font Info:    No file TUpcr.fd. on input line 302.
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 64
+8.
+LaTeX Font Info:    No file TUpcr.fd. on input line 648.
 
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 302.
+(Font)              using `TU/lmr/m/n' instead on input line 648.
 
 
 Package fontspec Info: Font family 'STFangsong(0)' created for font
@@ -1307,83 +1424,48 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-[5]
-File: docker.png Graphic file (type bmp)
-<docker.png>
- [6] [7]
-File: transformer.png Graphic file (type bmp)
-<transformer.png>
- [8] [9]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 351.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 351.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 351.
-File: MoE.png Graphic file (type bmp)
-<MoE.png>
- [10] [11]
-File: zero_shot.png Graphic file (type bmp)
-<zero_shot.png>
-File: few_shot.png Graphic file (type bmp)
-<few_shot.png>
- [12] [13]
-File: Elasticsearch.png Graphic file (type bmp)
-<Elasticsearch.png>
- [14]
-Overfull \hbox (13.74126pt too wide) in paragraph at lines 419--419
-[]\TU/SongtiSCLight(0)/m/n/12.045 在 设 计 模 式 方 面，| \TU/TimesNewRoman(0)/m/n/12.0
-45 Vue \TU/SongtiSCLight(0)/m/n/12.045 采 用 模 型\TU/TimesNewRoman(0)/m/n/12.045 -
-\TU/SongtiSCLight(0)/m/n/12.045 视 图\TU/TimesNewRoman(0)/m/n/12.045 -\TU/SongtiS
-CLight(0)/m/n/12.045 视 图 模 型  |（\TU/TimesNewRoman(0)/m/n/12.045 Model-View-View
-Model\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 MVVM\TU
-/SongtiSCLight(0)/m/n/12.045 ）|
- []
-
-File: MVVM.png Graphic file (type bmp)
-<MVVM.png>
-[15] [16]
-File: flow.png Graphic file (type bmp)
-<flow.png>
- [17]
-File: user_use.png Graphic file (type bmp)
-<user_use.png>
- [18] [19]
-File: operator_user.png Graphic file (type bmp)
-<operator_user.png>
- [20]
-File: structure.png Graphic file (type bmp)
-<structure.png>
- [21] [22]
-File: front_model.png Graphic file (type bmp)
-<front_model.png>
- [23]
-File: back_model.png Graphic file (type bmp)
-<back_model.png>
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 523.
- [24] [25] [26] [27] [28] [29]
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+File: register.png Graphic file (type bmp)
+<register.png>
+[49]
+File: login_check.png Graphic file (type bmp)
+<login_check.png>
+File: login.png Graphic file (type bmp)
+<login.png>
+ [50]
+File: register.png Graphic file (type bmp)
+<register.png>
+ [51]
+File: register_check.png Graphic file (type bmp)
+<register_check.png>
+ [52]
+File: search_page.png Graphic file (type bmp)
+<search_page.png>
+File: search_select.png Graphic file (type bmp)
+<search_select.png>
+ [53]
+File: repo_detail.png Graphic file (type bmp)
+<repo_detail.png>
+ [54] [55] [56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 741--742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--668
+Underfull \hbox (badness 10000) in paragraph at lines 766--768
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--668
+Underfull \hbox (badness 10000) in paragraph at lines 766--768
 
  []
 
-[31] (./夏劲-毕业设计.aux)
+[58] (./夏劲-毕业设计.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1396,16 +1478,25 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `夏劲-毕业设计.out' has not changed.
-(rerunfilecheck)             Checksum: 94115D708AA721F76AF8D55CC78A4C59;5800.
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `夏劲-毕业设计.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `夏劲-毕业设计.out':
+(rerunfilecheck)             Before: E7DFF04523FE09EA26D5C761D1032992;6835
+(rerunfilecheck)             After:  920D2644D703B145694C51C5182F797A;6612.
  ) 
 Here is how much of TeX's memory you used:
- 30463 strings out of 474773
- 672289 string characters out of 5757724
- 1943839 words of memory out of 5000000
- 52032 multiletter control sequences out of 15000+600000
- 583289 words of font info for 171 fonts, out of 8000000 for 9000
+ 30654 strings out of 474773
+ 674768 string characters out of 5757724
+ 1946839 words of memory out of 5000000
+ 52202 multiletter control sequences out of 15000+600000
+ 583297 words of font info for 172 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,13n,107p,1203b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,107p,1203b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 夏劲-毕业设计.pdf (37 pages).
+Output written on 夏劲-毕业设计.pdf (65 pages).
