@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  5 MAY 2025 16:19
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.25)  8 MAY 2025 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,11 +1010,7 @@ LaTeX Font Info:    No file TUptm.fd. on input line 91.
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
 (Font)              using `TU/lmr/m/n' instead on input line 91.
 
-(./夏劲-毕业设计.aux
-
-LaTeX Warning: Label `timeline' multiply defined.
-
-)
+(./夏劲-毕业设计.aux)
 \openout1 = `夏劲-毕业设计.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
@@ -1209,7 +1205,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 206--210
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 
  []
 
@@ -1264,16 +1260,16 @@ Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--228
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 232--235
 
  []
 
-[3] (./夏劲-毕业设计.toc [4])
+[4] (./夏劲-毕业设计.toc [5])
 \tf@toc=\write5
 \openout5 = `夏劲-毕业设计.toc'.
 
- [5] [1] [2] [3] [4] [5] [6]
+ [6] [1] [2] [3] [4] [5] [6]
 File: ast.svg.png Graphic file (type bmp)
 <ast.svg.png>
  [7] [8]
@@ -1291,11 +1287,11 @@ File: transformer.png Graphic file (type bmp)
 <transformer.png>
  [14] [15]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 369.
  [16]
 File: MoE.png Graphic file (type bmp)
 <MoE.png>
@@ -1316,7 +1312,7 @@ File: k8s_m.png Graphic file (type bmp)
 File: k8s_structure.png Graphic file (type bmp)
 <k8s_structure.png>
  [24]
-Overfull \hbox (13.74126pt too wide) in paragraph at lines 476--476
+Overfull \hbox (13.74126pt too wide) in paragraph at lines 470--470
 []\TU/SongtiSCLight(0)/m/n/12.045 在 设 计 模 式 方 面，| \TU/TimesNewRoman(0)/m/n/12.0
 45 Vue \TU/SongtiSCLight(0)/m/n/12.045 采 用 模 型\TU/TimesNewRoman(0)/m/n/12.045 -
 \TU/SongtiSCLight(0)/m/n/12.045 视 图\TU/TimesNewRoman(0)/m/n/12.045 -\TU/SongtiS
@@ -1328,68 +1324,21 @@ Model\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 MVVM\T
 File: MVVM.png Graphic file (type bmp)
 <MVVM.png>
 [25] [26]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 491.
-
-File: flow.png Graphic file (type bmp)
-<flow.png>
-[27]
 File: user_use.png Graphic file (type bmp)
 <user_use.png>
- [28] [29]
-File: operator_user.png Graphic file (type bmp)
-<operator_user.png>
- [30]
+ [27] [28] [29]
 File: structure.png Graphic file (type bmp)
 <structure.png>
- [31] [32]
-File: ast_example.png Graphic file (type bmp)
-<ast_example.png>
- [33]
-Overfull \vbox (19.75345pt too high) has occurred while \output is active []
-
-
-[34] [35]
+ [30] [31] [32]
+File: pre_pro.png Graphic file (type bmp)
+<pre_pro.png>
+ [33] [34]
 File: back_model.png Graphic file (type bmp)
 <back_model.png>
- [36]
-File: gateway.png Graphic file (type bmp)
-<gateway.png>
- [37]
-File: proto.png Graphic file (type bmp)
-<proto.png>
- [38]
-File: auth.png Graphic file (type bmp)
-<auth.png>
- [39]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 576.
- [40]
-File: search_proto.png Graphic file (type bmp)
-<search_proto.png>
- [41]
-File: timeline.png Graphic file (type bmp)
-<timeline.png>
- [42] [43] [44]
-File: prompt1.png Graphic file (type bmp)
-<prompt1.png>
-File: prompt2.png Graphic file (type bmp)
-<prompt2.png>
- [45] [46]
-Overfull \vbox (66.71056pt too high) has occurred while \output is active []
-
-
-[47]
-Overfull \hbox (3.57642pt too wide) in paragraph at lines 639--639
-[]\TU/SongtiSCLight(0)/m/n/12.045 为 实 现 上 述 目 标，|  本 文 设 计 了 一 种 多 层 次 的 提 示 词 
-模 板，|  其 基 本 结 构 如 图[][]\TU/TimesNewRoman(0)/m/n/12.045 4.25[][]\TU/SongtiSCLig
-ht(0)/m/n/12.045 所
- []
-
+ [35]
 File: front_model.png Graphic file (type bmp)
 <front_model.png>
-[48]
+ [36] [37]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1406,12 +1355,12 @@ Package fontspec Info: Could not resolve font "STFangsong/B" (it probably
 Package fontspec Info: Could not resolve font "STFangsong/I" (it probably
 (fontspec)             doesn't exist).
 
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 64
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 55
 8.
-LaTeX Font Info:    No file TUpcr.fd. on input line 648.
+LaTeX Font Info:    No file TUpcr.fd. on input line 558.
 
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 648.
+(Font)              using `TU/lmr/m/n' instead on input line 558.
 
 
 Package fontspec Info: Font family 'STFangsong(0)' created for font
@@ -1424,48 +1373,89 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+[38]
+File: ast_example.png Graphic file (type bmp)
+<ast_example.png>
+ [39]
+Overfull \vbox (19.75345pt too high) has occurred while \output is active []
+
+
+[40]
+File: gateway.png Graphic file (type bmp)
+<gateway.png>
+ [41]
+File: proto.png Graphic file (type bmp)
+<proto.png>
+ [42]
+File: auth.png Graphic file (type bmp)
+<auth.png>
+ [43]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 593.
+ [44]
+File: search_proto.png Graphic file (type bmp)
+<search_proto.png>
+ [45]
+File: timeline.png Graphic file (type bmp)
+<timeline.png>
+ [46] [47]
+File: prompt1.png Graphic file (type bmp)
+<prompt1.png>
+File: prompt2.png Graphic file (type bmp)
+<prompt2.png>
+ [48] [49]
+Overfull \vbox (66.71056pt too high) has occurred while \output is active []
+
+
+[50]
 File: register.png Graphic file (type bmp)
 <register.png>
-[49]
 File: login_check.png Graphic file (type bmp)
 <login_check.png>
+ [51]
 File: login.png Graphic file (type bmp)
 <login.png>
- [50]
+ [52]
 File: register.png Graphic file (type bmp)
 <register.png>
- [51]
 File: register_check.png Graphic file (type bmp)
 <register_check.png>
- [52]
+ [53]
 File: search_page.png Graphic file (type bmp)
 <search_page.png>
+ [54]
 File: search_select.png Graphic file (type bmp)
 <search_select.png>
- [53]
+ [55]
 File: repo_detail.png Graphic file (type bmp)
 <repo_detail.png>
- [54] [55] [56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 741--742
+ [56] [57] [58]
+Underfull \hbox (badness 2020) in paragraph at lines 722--723
+[]\TU/TimesNewRoman(0)/m/n/10.53937 Iyer S, Konstas I, Cheung A, et al. Summari
+zing source code using a neural attention
+ []
+
+[59] [60] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--752
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--768
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--768
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
-[58] (./夏劲-毕业设计.aux)
+[62] (./夏劲-毕业设计.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1478,25 +1468,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package rerunfilecheck Warning: File `夏劲-毕业设计.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `夏劲-毕业设计.out':
-(rerunfilecheck)             Before: E7DFF04523FE09EA26D5C761D1032992;6835
-(rerunfilecheck)             After:  920D2644D703B145694C51C5182F797A;6612.
+Package rerunfilecheck Info: File `夏劲-毕业设计.out' has not changed.
+(rerunfilecheck)             Checksum: A1AD2A49F173A70797E2EB2B8963B100;7445.
  ) 
 Here is how much of TeX's memory you used:
- 30654 strings out of 474773
- 674768 string characters out of 5757724
- 1946839 words of memory out of 5000000
- 52202 multiletter control sequences out of 15000+600000
+ 30646 strings out of 474773
+ 673941 string characters out of 5757724
+ 1945839 words of memory out of 5000000
+ 52195 multiletter control sequences out of 15000+600000
  583297 words of font info for 172 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,13n,107p,1203b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 夏劲-毕业设计.pdf (65 pages).
+Output written on 夏劲-毕业设计.pdf (70 pages).
