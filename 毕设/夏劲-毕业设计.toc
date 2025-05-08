@@ -8,46 +8,38 @@
 \contentsline {subsection}{\numberline {1.3}论文研究内容}{4}{subsection.1.3}%
 \contentsline {section}{\numberline {2}相关理论和技术}{6}{section.2}%
 \contentsline {subsection}{\numberline {2.1}代码搜索问题概述}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}代码结构化表达方式}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}AST}{7}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}PDG}{9}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}基于分布式的高性能搜索引擎}{10}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Apache Solr}{10}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Elasticsearch}{12}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Transformer驱动的大规模预训练语言模型}{13}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Transformer}{14}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}面向任务自适应的混合专家深度学习框架}{17}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}基于语义增强的大模型提示工程}{18}{subsubsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.5}基于微服务的高可用后台架构}{20}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}跨语言的远程调用框架}{22}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}容器化部署与环境隔离基础设施}{22}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}自动化编排与弹性伸缩的云原生平台}{23}{subsubsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.6}面向高效开发的VS Code插件生态与创新实践}{25}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}基于组件化思想的Vue框架}{25}{subsubsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.7}本章小结}{26}{subsection.2.7}%
-\contentsline {section}{\numberline {3}面向多编程语言的代码检索系统需求分析}{27}{section.3}%
-\contentsline {subsection}{\numberline {3.1}用户需求}{27}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}功能需求}{29}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}非功能需求}{29}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}其他需求}{30}{subsection.3.4}%
-\contentsline {section}{\numberline {4}面向多编程语言的代码检索系统方案设计}{30}{section.4}%
-\contentsline {subsection}{\numberline {4.1}系统总体架构设计}{30}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}基于AST的代码结构化预处理设计}{33}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}基于微服务的高可用后台分布式设计}{34}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}基于提示词工程的查询上下文增强技术}{36}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}智能代码检索系统前端架构}{37}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}本章小结}{38}{subsection.4.6}%
-\contentsline {section}{\numberline {5}面向多编程语言的代码检索系统方案实现}{38}{section.5}%
-\contentsline {subsection}{\numberline {5.1}基于AST的编程语言预处理实现}{38}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}基于微服务的高可用后台分布式技术实现}{41}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}微服务系统中的统一接入与安全网关服务}{41}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}微服务系统中的统一身份认证与安全鉴权服务}{42}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}基于高性能分布式查询引擎的代码查询服务}{45}{subsubsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.3}基于提示词工程的查询上下文增强技术}{48}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}智能代码检索系统前端界面设计实现}{51}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}本章小结}{57}{subsection.5.5}%
-\contentsline {section}{\numberline {6}总结与展望}{58}{section.6}%
-\contentsline {section}{参考文献}{59}{section.6}%
-\contentsline {section}{致谢}{61}{section.6}%
-\contentsline {section}{原创性声明和使用授权书}{62}{section.6}%
+\contentsline {subsection}{\numberline {2.2}基于分布式的高性能搜索引擎}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Elasticsearch}{7}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Transformer驱动的大规模预训练语言模型}{9}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Transformer}{9}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}面向任务自适应的混合专家深度学习框架}{13}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}基于语义增强的大模型提示工程}{14}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}基于微服务的高可用后台架构}{16}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}跨语言的远程调用框架}{18}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}容器化部署与环境隔离基础设施}{18}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}本章小结}{19}{subsection.2.5}%
+\contentsline {section}{\numberline {3}面向多编程语言的代码检索系统需求与设计}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}用户需求}{21}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}功能需求}{23}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}非功能需求}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}其他需求}{24}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}系统总体架构设计}{24}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}基于AST的代码结构化预处理设计}{27}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}基于微服务的高可用后台分布式设计}{30}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}基于提示词工程的查询上下文增强技术}{32}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}智能代码检索系统前端架构}{33}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}本章小结}{34}{subsection.3.10}%
+\contentsline {section}{\numberline {4}面向多编程语言的代码检索系统方案实现}{34}{section.4}%
+\contentsline {subsection}{\numberline {4.1}基于AST的编程语言预处理实现}{34}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}基于微服务的高可用后台分布式技术实现}{37}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}微服务系统中的统一接入与安全网关服务}{37}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}微服务系统中的统一身份认证与安全鉴权服务}{38}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}基于高性能分布式查询引擎的代码查询服务}{41}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}基于提示词工程的查询上下文增强技术}{44}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}智能代码检索系统前端界面设计实现}{47}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}本章小结}{53}{subsection.4.5}%
+\contentsline {section}{\numberline {5}总结与展望}{54}{section.5}%
+\contentsline {section}{参考文献}{55}{section.5}%
+\contentsline {section}{致谢}{57}{section.5}%
+\contentsline {section}{原创性声明和使用授权书}{58}{section.5}%
 \contentsfinish 
