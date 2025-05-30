@@ -103,8 +103,8 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useRouter, useRoute } from 'vue-router'
-import axios from 'axios'
+import { useRouter } from 'vue-router'
+// import axios from 'axios'
 import { 
   Document, 
   CollectionTag, 
@@ -114,21 +114,41 @@ import {
 } from '@element-plus/icons-vue'
 
 const router = useRouter()
-const route = useRoute()
+// const route = useRoute()
 const loading = ref(true)
 const repository = ref(null)
 const files = ref([])
 
 const fetchRepositoryDetails = async () => {
   try {
-    const repoPath = decodeURIComponent(route.params.id)
-    const response = await axios.get(`http://127.0.0.1:8000/repository/${repoPath}`)
-    repository.value = response.data.repository
-    files.value = response.data.files
+    // 模拟的假数据
+    const fakeRepositoryData = {
+      repo_name: "Sorting-Algorithms-Blender",
+      license: "GPL-3.0 license",
+      highlight: "Sorting algorithms visualized using the Blender Python API.",
+      language: "Python",
+      stars: 655,
+      repo_path: "https://github.com/ForeignGods/Sorting-Algorithms-Blender?tab=readme-ov-file"
+    };
+
+    const fakeFilesData = [
+      { name: "bubble_circle.gif", type: "图片", size: "未知", description: "Delete bubble_circle.gif", lastModified: "3 years ago" },
+      { name: "sort_circle", type: "文件夹", size: "未知", description: "create various sort_circle + smooth gradient", lastModified: "3 years ago" },
+      { name: "sort_color", type: "文件夹", size: "未知", description: "added get_rg() + improved color gradient", lastModified: "3 years ago" },
+      { name: "sort_combined", type: "文件夹", size: "未知", description: "added pivot + rotation", lastModified: "3 years ago" },
+      { name: "sort_scale", type: "文件夹", size: "未知", description: "values of counter objects start at 0", lastModified: "3 years ago" },
+      { name: ".gitattributes", type: "文件", size: "未知", description: "Initial commit", lastModified: "3 years ago" },
+      { name: "LICENSE", type: "文件", size: "未知", description: "Create LICENSE", lastModified: "3 years ago" },
+      { name: "README.md", type: "文件", size: "未知", description: "README.md", lastModified: "3 years ago" }
+    ];
+
+    // 将假数据赋值给响应数据
+    repository.value = fakeRepositoryData;
+    files.value = fakeFilesData;
   } catch (error) {
-    console.error('Error:', error)
+    console.error('Error:', error);
   } finally {
-    loading.value = false
+    loading.value = false;
   }
 }
 

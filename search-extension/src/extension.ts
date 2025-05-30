@@ -8,9 +8,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 export function deactivate() {}
 
-
-
-
 class SearchSideBarProvider implements vscode.WebviewViewProvider {
     constructor(private readonly extensionUri: vscode.Uri) {}
     resolveWebviewView(

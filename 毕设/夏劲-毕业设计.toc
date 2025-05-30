@@ -1,0 +1,47 @@
+\contentsline {section}{摘要}{I}{figure.caption.2}%
+\contentsline {section}{ABSTRACT}{III}{figure.caption.2}%
+\contentsline {section}{\numberline {1}绪论}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}研究目的及意义}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}国内外研究现状}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}多语言代码搜索技术现状}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}多编程语言的代码结构化表示方法现状}{2}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}论文研究内容}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}相关理论和技术}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}代码搜索问题概述}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}基于分布式的高性能搜索引擎}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Elasticsearch}{6}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Transformer驱动的大规模预训练语言模型}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Transformer}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}面向任务自适应的混合专家深度学习框架}{10}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}基于语义增强的大模型提示工程}{11}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}基于微服务的高可用后台架构}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}跨语言的远程调用框架}{14}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}容器化部署与环境隔离基础设施}{15}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}本章小结}{15}{subsection.2.5}%
+\contentsline {section}{\numberline {3}面向多编程语言的代码检索系统需求与设计}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}面向多编程语言的代码检索系统需求分析}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}用户需求}{17}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}功能需求}{18}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}非功能需求}{19}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}其他需求}{20}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}面向多编程语言的代码检索系统设计方案}{20}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}系统总体架构设计}{20}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}基于AST的代码结构化预处理设计}{21}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}基于微服务的高可用后台分布式设计}{23}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}基于提示词工程的查询上下文增强技术}{25}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}智能代码检索系统前端架构}{26}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.3}本章小结}{28}{subsection.3.3}%
+\contentsline {section}{\numberline {4}面向多编程语言的代码检索系统方案实现}{28}{section.4}%
+\contentsline {subsection}{\numberline {4.1}基于AST的编程语言预处理实现}{28}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}基于微服务的高可用后台分布式技术实现}{30}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}微服务系统中的统一接入与安全网关服务}{30}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}微服务系统中的统一身份认证与安全鉴权服务}{31}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}基于高性能分布式查询引擎的代码查询服务}{34}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}基于提示词工程的查询上下文增强技术}{37}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}智能代码检索系统前端界面设计实现}{40}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}本章小结}{46}{subsection.4.5}%
+\contentsline {section}{总结与展望}{48}{subsection.4.5}%
+\contentsline {section}{参考文献}{49}{subsection.4.5}%
+\contentsline {section}{致谢}{51}{subsection.4.5}%
+\contentsline {section}{原创性声明和使用授权书}{52}{subsection.4.5}%
+\contentsfinish 
